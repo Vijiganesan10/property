@@ -1,0 +1,531 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body {
+    flex-basis: 25%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+nav {
+    background-color: rgb(178, 220, 237);
+    width: 100%;
+    height: 80px;
+
+}
+
+
+label.logo {
+    color: navy;
+    font-size: 40px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: black;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+a.active,
+a:hover {
+    color: white;
+    transition: .5s;
+}
+
+
+.checkbtn {
+    font-size: 22px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+
+li.register a {
+    background-color: rgb(224, 163, 71);
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+li.post-property a {
+    background-color: rgb(95, 95, 226);
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+li.post-property span {
+    background-color: rgb(224, 163, 71);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+@media (max-width: 1050px) {
+    label.logo {
+        padding-left: 30px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+
+/* Responsive media query code for small screen */
+@media (max-width: 890px) {
+    .checkbtn {
+        display: block;
+    }
+
+    label.logo {
+        font-size: 25px;
+    }
+
+    ul {
+        position: fixed;
+        width: 30%;
+        height: 70vh;
+        background: rgb(80, 80, 226);
+        top: 60px;
+        right: -100%;
+        text-align: center;
+        transition: all .5s;
+           
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 4px;
+    }
+     
+
+    nav ul li a {
+        font-size: 20px;
+
+    }
+
+    a:hover,
+    a.active {
+        background: none;
+        color: white;
+    }
+
+    #check:checked~ul {
+        right: 0;
+    }
+
+
+}
+
+.home {
+    background: url(home\ img.jpg) no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+
+
+.btn,
+.inline-btn {
+    margin-top: 1rem;
+    padding: 1rem 3rem;
+    background-color: rgb(0, 66, 128);
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.inline-btn {
+    display: inline-block;
+}
+
+
+.home .center {
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+
+}
+
+.home .center form {
+    background-color: white;
+    border-radius: 20px;
+    padding: 1%;
+    padding-inline: 10px;
+    width: 30rem;
+
+}
+
+.home .center form h2 {
+
+    text-align: center;
+    color: black;
+    text-transform: capitalize;
+    font-size: 2.5rem;
+
+
+}
+
+.home .center form .flex {
+    display: flex;
+    padding: 10px;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+}
+
+
+.home .center form .box {
+    padding-left: 10%;
+    padding-inline: 40px;
+
+}
+
+
+.home .center form .box input {
+    width: 100%;
+    padding: 10px;
+    color: black;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    padding-right: 120px;
+    background-color: rgba(232, 232, 232, 0.977);
+    border-style: solid;
+    border-radius: 4px;
+    margin-top: 1%;
+    border: none;
+
+
+}
+
+.home .center form .box p {
+    color: black;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+
+}
+
+.home .center form .box p span {
+    color: red;
+
+}
+
+.home .box select {
+    background-color: rgba(232, 232, 232, 0.977);
+    font-style: normal;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 1%;
+    width: 140px;
+    border: none;
+}
+
+.home .box select option {
+    background-color: white;
+}
+
+
+.row {
+    display: grid;
+    grid-gap: 20px;
+    width: 100%;
+    max-width: 25%;
+    margin-right: 75px;
+    padding-right: 30px;
+}
+
+
+
+.image-container {
+    width: 100%;
+    padding-right: 2%;
+    padding-left: 2%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #f4f5f6;
+}
+
+.row-content {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y)* -1);
+    margin-right: calc(var(--bs-gutter-x)* -.5);
+    margin-left: calc(var(--bs-gutter-x)* -.5);
+    justify-content: center;
+}
+
+.item-sorting-box .m-0 {
+    text-align: center;
+    padding: 20px;
+    color: #39466d;
+    font-size: 30px;
+
+}
+
+.item-sorting-box p {
+    padding-bottom: 10px;
+}
+
+
+
+
+
+.container-box {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: space-around;
+
+
+}
+
+.container-box div {
+    width: 400px;
+    margin: 0px;
+    flex-grow: 50%;
+    padding: 0px;
+
+}
+
+
+.container-box .img {
+    background-color: white;
+    position: relative;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+    border-radius: 4%;
+
+}
+
+
+
+.container-box div .name {
+    padding: 10px;
+
+}
+
+.add-to-wishlist {
+    display: inline-block;
+    font: normal normal normal 14px / 1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    padding-left: 26px;
+    padding-top: 7px;
+
+}
+
+.type-rent {
+    margin-left: 10px;
+    background: #efefef;
+    border-radius: 50px;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 5px;
+    padding: 6px 12px;
+    background: rgba(136, 102, 218, .1);
+    color: #8866da;
+
+}
+
+.line1 {
+    display: flex;
+    padding: 4px 12px;
+
+}
+
+.line1 h4 {
+    padding: 20px;
+    padding-left: 140px;
+    padding-top: 2px;
+    font-size: 20px;
+    color: orange;
+}
+
+.line2 a {
+    padding: 20px;
+    text-decoration: none;
+    font-size: 22px;
+    color: navy;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+.line2 a:hover {
+    color: orange;
+
+}
+
+.line3 .rating {
+    padding: 20px;
+    display: flex;
+}
+
+.line3 .rating p {
+    padding-left: 8px;
+    padding: 1%;
+    font-size: 17px;
+}
+
+.line3 .checked {
+    color: orange;
+
+
+}
+
+.line3 .rating span {
+    padding: 1%;
+}
+
+.line4 .list-features {
+    display: flex;
+    padding: 10px;
+    padding-left: 60px;
+    padding-top: 1px;
+}
+
+.line4 .list-features .bed-icon,
+.bath-icon,
+.metre-icon {
+    display: flex;
+    color: #39466d;
+    padding-bottom: 10px;
+}
+
+.line4 .list-features p {
+    padding-left: 10px;
+
+}
+
+.line5 .location {
+    display: flex;
+    padding-top: 10px;
+    border-top: 1px solid #e4e8f3;
+
+}
+
+.line5 .location .map-icon {
+    display: flex;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    margin-right: 10px;
+}
+
+.line5 .map-icon {
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    display: flex;
+
+
+}
+
+.line5 .location img {
+    margin-right: 5px;
+}
+
+.line5 .location .view {
+    padding-left: 100px;
+
+}
+
+.view a {
+    background: #0fca98;
+    border-radius: 50px;
+    color: #fff !important;
+    display: inline-flex;
+    height: 30px;
+    padding: 4px 18px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.view a {
+    text-decoration: none;
+
+}
+
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#myBtn:hover {
+    background-color: grey;
+}

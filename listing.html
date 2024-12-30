@@ -1,0 +1,1442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5, user-scalable=1">
+    <title>Listing</title>
+    <link rel="stylesheet" href="listing.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <nav>
+        <!-- Checkbox for toggling menu -->
+        <input type="checkbox" id="check">
+
+        <!-- Menu icon -->
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+
+        <!-- Site logo -->
+        <label class="logo">Blue Sky</label>
+
+
+        <ul>
+
+            <li class="active">
+                <a href="home.html">Home</a>
+            </li>
+
+            <li class="list">
+                <a href="listing.html">Listing</a>
+            </li>
+
+            <li class="menu-item">
+                <a href="#">Projects</a>
+            </li>
+
+            <li class="menu-item">
+                <a href="#">Features</a>
+            </li>
+
+            <li class="menu-item">
+                <a href="#">Pages</a>
+            </li>
+
+            <li class="register">
+                <a href="register.html">
+                    Sign Up
+                </a>
+            </li>
+
+            <li class="post-property">
+                <a href="login.html"> Post Property
+                    <span>Free</span>
+                </a>
+            </li>
+
+        </ul>
+
+
+    </nav>
+
+    <!--section for image-->
+    <section></section>
+
+    <div class="header">
+
+        <div class="page-title">
+            <div class="container">
+                <div class="full-search">
+                    <div class="hero-search-content">
+                        <form action="" method="GET" id="frmhomesearch">
+                            <div class="row">
+                                <div class="col-1">
+                                    <div class="form-group">
+                                        <div class="choose-property-type">
+                                            <ul>
+                                                <li>
+
+                                                    <input id="sale" class="checkbox" name="type" type="radio"
+                                                        value="sale">
+                                                    <label for="sale" class="checkbox">Sale</label>
+                                                </li>
+                                                <li>
+
+                                                    <input id="rent" class="checkbox" name="type" type="radio"
+                                                        value="rent">
+                                                    <label for="rent" class="checkbox">Rent</label>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-2">
+
+                                    <div class="form-group">
+
+                                        <div class="input-with-icon">
+                                            <input type="text" class="form-control" name="k"
+                                                placeholder="Search for a location">
+                                            <img src="https://resido.thesky9.com/themes/resido/img/pin.svg" width="20">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+
+
+                                    <div class="form-group">
+                                        <button type="submit" class="btn search-btn black">Search</button>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="gray">
+            <div class="image-container">
+
+                <div class="list-layout">
+
+                    <div class="row-content">
+                        <div class="item-sorting-box">
+
+                            <div class="item-sorting clearfix">
+                                <div class="left-column pull-left">
+                                    <h2 class="m-0"> Found 1 - 15 Of 19 Results </h2>
+                                </div>
+                            </div>
+
+                            <div class="item-sorting-box-right">
+                                <div class="sorting-by">
+                                    <select name="sortby" class="input" value="Sort by">
+                                        <option value="sortby">Sort by</option>
+                                        <option value="old">Oldest</option>
+                                        <option value="new">Newest</option>
+                                        <option value="price:L-H">Price: Low to High</option>
+                                        <option value="price:H-L">Price: High to Low</option>
+                                        <option value="name:A-Z">Name: A-Z</option>
+                                        <option value="name:Z-A">Name: Z-A</option>
+                                    </select>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="image-gallery">
+                        <div class="container-box">
+
+                            <div class="img">
+                                <div class="img1">
+                                    <a href="holidaydrive.html"> <img src="p-1-400xauto.jpg"></a>
+                                    <div class="icon-actions-wrapper">
+                                        <a href="" class="add-to-wishlist">
+                                            <i class="fa fa-heart"></i>
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <div class="line1">
+                                            <span>
+                                                <span class="type-rent">Rent</span>
+                                            </span>
+                                            <h4>$175,939 / Monthly</h4>
+                                        </div>
+
+                                        <div class="line2">
+                                            <a href="holidaydrive.html">4113 Holiday Drive </a>
+                                        </div>
+
+                                        <div class="line3">
+                                            <div class="rating">
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <p>(3 Reviews)</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="line4">
+                                            <div class="list-features">
+                                                <div class="bed-icon">
+                                                    <i class="fa fa-bed"></i>
+                                                    <p>1 Bed</p>
+                                                </div>
+
+                                                <div class="bath-icon">
+                                                    <i class="fa fa-bath"></i>
+                                                    <p>2 Bath</p>
+                                                </div>
+
+                                                <div class="metre-icon">
+                                                    <i class="fa fa-arrows-alt"> </i>
+                                                    <p>112 m²</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="line5">
+                                            <div class="location">
+                                                <div class="map-icon">
+                                                    <img src="https://resido.thesky9.com/themes/resido/img/pin.svg"
+                                                        width="18" alt="Hampton"> Hampton
+                                                </div>
+                                                <div class="view">
+                                                    <a href="holidaydrive.html" class="prt-view">View</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="img">
+                                <div class="img2">
+                                    <a href="holidaydrive.html"><img src="p-2-400xauto.jpg"></a>
+                                    <div class="icon-actions-wrapper">
+                                        <a href="" class="add-to-wishlist">
+                                            <i class="fa fa-heart"></i>
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <div class="line1">
+                                            <span>
+                                                <span class="type-rent">Rent</span>
+                                            </span>
+                                            <h4>$175,939 / Monthly</h4>
+                                        </div>
+
+                                        <div class="line2">
+                                            <a href="holidaydrive.html"> 4113 Holiday Drive </a>
+                                        </div>
+
+                                        <div class="line3">
+                                            <div class="rating">
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <p>(3 Reviews)</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="line4">
+                                            <div class="list-features">
+                                                <div class="bed-icon">
+                                                    <i class="fa fa-bed"></i>
+                                                    <p>1 Bed</p>
+                                                </div>
+
+                                                <div class="bath-icon">
+                                                    <i class="fa fa-bath"></i>
+                                                    <p>2 Bath</p>
+                                                </div>
+
+                                                <div class="metre-icon">
+                                                    <i class="fa fa-arrows-alt"> </i>
+                                                    <p>112 m²</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="line5">
+                                            <div class="location">
+                                                <div class="map-icon">
+                                                    <img src="https://resido.thesky9.com/themes/resido/img/pin.svg"
+                                                        width="18" alt="Hampton"> Hampton
+                                                </div>
+                                                <div class="view">
+                                                    <a href="holidaydrive.html" class="prt-view">View</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="img">
+                                <div class="img3">
+                                    <a href="holidaydrive.html"><img src="p-3-400xauto.jpg"></a>
+                                    <div class="icon-actions-wrapper">
+                                        <a href="" class="add-to-wishlist">
+                                            <i class="fa fa-heart"></i>
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <div class="line1">
+                                            <span>
+                                                <span class="type-rent">Rent</span>
+                                            </span>
+                                            <h4>$175,939 / Monthly</h4>
+                                        </div>
+
+                                        <div class="line2">
+                                            <a href="holidaydrive.html"> 4113 Holiday Drive </a>
+                                        </div>
+
+                                        <div class="line3">
+                                            <div class="rating">
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <p>(3 Reviews)</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="line4">
+                                            <div class="list-features">
+                                                <div class="bed-icon">
+                                                    <i class="fa fa-bed"></i>
+                                                    <p>1 Bed</p>
+                                                </div>
+
+                                                <div class="bath-icon">
+                                                    <i class="fa fa-bath"></i>
+                                                    <p>2 Bath</p>
+                                                </div>
+
+                                                <div class="metre-icon">
+                                                    <i class="fa fa-arrows-alt"> </i>
+                                                    <p>112 m²</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="line5">
+                                            <div class="location">
+                                                <div class="map-icon">
+                                                    <img src="https://resido.thesky9.com/themes/resido/img/pin.svg"
+                                                        width="18" alt="Hampton"> Hampton
+                                                </div>
+                                                <div class="view">
+                                                    <a href="holidaydrive.html" class="prt-view">View</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="img">
+                                <div class="img4">
+                                    <a href="holidaydrive.html"><img src="p-1-400xauto.jpg"></a>
+                                    <div class="icon-actions-wrapper">
+                                        <a href="" class="add-to-wishlist">
+                                            <i class="fa fa-heart"></i>
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <div class="line1">
+                                            <span>
+                                                <span class="type-rent">Rent</span>
+                                            </span>
+                                            <h4>$175,939 / Monthly</h4>
+                                        </div>
+
+                                        <div class="line2">
+                                            <a href="holidaydrive.html"> 4113 Holiday Drive </a>
+                                        </div>
+                                        <div class="line3">
+                                            <div class="rating">
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <p>(3 Reviews)</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="line4">
+                                            <div class="list-features">
+                                                <div class="bed-icon">
+                                                    <i class="fa fa-bed"></i>
+                                                    <p>1 Bed</p>
+                                                </div>
+
+                                                <div class="bath-icon">
+                                                    <i class="fa fa-bath"></i>
+                                                    <p>2 Bath</p>
+                                                </div>
+
+                                                <div class="metre-icon">
+                                                    <i class="fa fa-arrows-alt"> </i>
+                                                    <p>112 m²</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="line5">
+                                            <div class="location">
+                                                <div class="map-icon">
+                                                    <img src="https://resido.thesky9.com/themes/resido/img/pin.svg"
+                                                        width="18" alt="Hampton"> Hampton
+                                                </div>
+                                                <div class="view">
+                                                    <a href="holidaydrive.html" class="prt-view">View</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="img">
+                                <div class="img5">
+                                    <a href="holidaydrive.html"><img src="p-5-400xauto.jpg"></a>
+                                    <div class="icon-actions-wrapper">
+                                        <a href="" class="add-to-wishlist">
+                                            <i class="fa fa-heart"></i>
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <div class="line1">
+                                            <span>
+                                                <span class="type-rent">Rent</span>
+                                            </span>
+                                            <h4>$175,939 / Monthly</h4>
+                                        </div>
+
+                                        <div class="line2">
+                                            <a href="holidaydrive.html"> 4113 Holiday Drive </a>
+                                        </div>
+
+                                        <div class="line3">
+                                            <div class="rating">
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <p>(3 Reviews)</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="line4">
+                                            <div class="list-features">
+                                                <div class="bed-icon">
+                                                    <i class="fa fa-bed"></i>
+                                                    <p>1 Bed</p>
+                                                </div>
+
+                                                <div class="bath-icon">
+                                                    <i class="fa fa-bath"></i>
+                                                    <p>2 Bath</p>
+                                                </div>
+
+                                                <div class="metre-icon">
+                                                    <i class="fa fa-arrows-alt"> </i>
+                                                    <p>112 m²</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="line5">
+                                            <div class="location">
+                                                <div class="map-icon">
+                                                    <img src="https://resido.thesky9.com/themes/resido/img/pin.svg"
+                                                        width="18" alt="Hampton"> Hampton
+                                                </div>
+                                                <div class="view">
+                                                    <a href="holidaydrive.html" class="prt-view">View</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="img">
+                                <div class="img6">
+                                    <a href="holidaydrive.html"><img src="p-6-400xauto.jpg"></a>
+                                    <div class="icon-actions-wrapper">
+                                        <a href="" class="add-to-wishlist">
+                                            <i class="fa fa-heart"></i>
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <div class="line1">
+                                            <span>
+                                                <span class="type-rent">Rent</span>
+                                            </span>
+                                            <h4>$175,939 / Monthly</h4>
+                                        </div>
+
+                                        <div class="line2">
+                                            <a href="holidaydrive.html"> 4113 Holiday Drive </a>
+                                        </div>
+
+                                        <div class="line3">
+                                            <div class="rating">
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <p>(3 Reviews)</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="line4">
+                                            <div class="list-features">
+                                                <div class="bed-icon">
+                                                    <i class="fa fa-bed"></i>
+                                                    <p>1 Bed</p>
+                                                </div>
+
+                                                <div class="bath-icon">
+                                                    <i class="fa fa-bath"></i>
+                                                    <p>2 Bath</p>
+                                                </div>
+
+                                                <div class="metre-icon">
+                                                    <i class="fa fa-arrows-alt"> </i>
+                                                    <p>112 m²</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="line5">
+                                            <div class="location">
+                                                <div class="map-icon">
+                                                    <img src="https://resido.thesky9.com/themes/resido/img/pin.svg"
+                                                        width="18" alt="Hampton"> Hampton
+                                                </div>
+                                                <div class="view">
+                                                    <a href="holidaydrive.html" class="prt-view">View</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="img">
+                                <div class="img7">
+                                    <a href="holidaydrive.html"><img src="p-2-400xauto.jpg"></a>
+                                    <div class="icon-actions-wrapper">
+                                        <a href="" class="add-to-wishlist">
+                                            <i class="fa fa-heart"></i>
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <div class="line1">
+                                            <span>
+                                                <span class="type-rent">Rent</span>
+                                            </span>
+                                            <h4>$175,939 / Monthly</h4>
+                                        </div>
+
+                                        <div class="line2">
+                                            <a href="holidaydrive.html"> 4113 Holiday Drive </a>
+                                        </div>
+
+                                        <div class="line3">
+                                            <div class="rating">
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <p>(3 Reviews)</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="line4">
+                                            <div class="list-features">
+                                                <div class="bed-icon">
+                                                    <i class="fa fa-bed"></i>
+                                                    <p>1 Bed</p>
+                                                </div>
+
+                                                <div class="bath-icon">
+                                                    <i class="fa fa-bath"></i>
+                                                    <p>2 Bath</p>
+                                                </div>
+
+                                                <div class="metre-icon">
+                                                    <i class="fa fa-arrows-alt"> </i>
+                                                    <p>112 m²</p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="line5">
+                                            <div class="location">
+                                                <div class="map-icon">
+                                                    <img src="https://resido.thesky9.com/themes/resido/img/pin.svg"
+                                                        width="18" alt="Hampton"> Hampton
+                                                </div>
+                                                <div class="view">
+                                                    <a href="holidaydrive.html" class="prt-view">View</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="img">
+                                <div class="img8">
+                                    <a href="holidaydrive.html"><img src="p-8-400xauto.jpg"></a>
+                                    <div class="icon-actions-wrapper">
+                                        <a href="" class="add-to-wishlist">
+                                            <i class="fa fa-heart"></i>
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <div class="line1">
+                                            <span>
+                                                <span class="type-rent">Rent</span>
+                                            </span>
+                                            <h4>$175,939 / Monthly</h4>
+                                        </div>
+
+                                        <div class="line2">
+                                            <a href="holidaydrive.html"> 4113 Holiday Drive </a>
+                                        </div>
+
+                                        <div class="line3">
+                                            <div class="rating">
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <p>(3 Reviews)</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="line4">
+                                            <div class="list-features">
+                                                <div class="bed-icon">
+                                                    <i class="fa fa-bed"></i>
+                                                    <p>1 Bed</p>
+                                                </div>
+
+                                                <div class="bath-icon">
+                                                    <i class="fa fa-bath"></i>
+                                                    <p>2 Bath</p>
+                                                </div>
+
+                                                <div class="metre-icon">
+                                                    <i class="fa fa-arrows-alt"> </i>
+                                                    <p>112 m²</p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="line5">
+                                            <div class="location">
+                                                <div class="map-icon">
+                                                    <img src="https://resido.thesky9.com/themes/resido/img/pin.svg"
+                                                        width="18" alt="Hampton"> Hampton
+                                                </div>
+                                                <div class="view">
+                                                    <a href="holidaydrive.html" class="prt-view">View</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="img">
+                                <div class="img9">
+                                    <a href="holidaydrive.html"><img src="p-9-400xauto.jpg"></a>
+                                    <div class="icon-actions-wrapper">
+                                        <a href="" class="add-to-wishlist">
+                                            <i class="fa fa-heart"></i>
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <div class="line1">
+                                            <span>
+                                                <span class="type-rent">Rent</span>
+                                            </span>
+                                            <h4>$175,939 / Monthly</h4>
+                                        </div>
+
+                                        <div class="line2">
+                                            <a href="holidaydrive.html"> 4113 Holiday Drive </a>
+                                        </div>
+
+                                        <div class="line3">
+                                            <div class="rating">
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <p>(3 Reviews)</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="line4">
+                                            <div class="list-features">
+                                                <div class="bed-icon">
+                                                    <i class="fa fa-bed"></i>
+                                                    <p>1 Bed</p>
+                                                </div>
+
+                                                <div class="bath-icon">
+                                                    <i class="fa fa-bath"></i>
+                                                    <p>2 Bath</p>
+                                                </div>
+
+                                                <div class="metre-icon">
+                                                    <i class="fa fa-arrows-alt"> </i>
+                                                    <p>112 m²</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="line5">
+                                            <div class="location">
+                                                <div class="map-icon">
+                                                    <img src="https://resido.thesky9.com/themes/resido/img/pin.svg"
+                                                        width="18" alt="Hampton"> Hampton
+                                                </div>
+                                                <div class="view">
+                                                    <a href="holidaydrive.html" class="prt-view">View</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="img">
+                                <div class="img10">
+                                    <a href="holidaydrive.html"><img src="p-10-400xauto.jpg"></a>
+                                    <div class="icon-actions-wrapper">
+                                        <a href="" class="add-to-wishlist">
+                                            <i class="fa fa-heart"></i>
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <div class="line1">
+                                            <span>
+                                                <span class="type-rent">Rent</span>
+                                            </span>
+                                            <h4>$175,939 / Monthly</h4>
+                                        </div>
+
+                                        <div class="line2">
+                                            <a href="holidaydrive.html"> 4113 Holiday Drive </a>
+                                        </div>
+
+                                        <div class="line3">
+                                            <div class="rating">
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <p>(3 Reviews)</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="line4">
+                                            <div class="list-features">
+                                                <div class="bed-icon">
+                                                    <i class="fa fa-bed"></i>
+                                                    <p>1 Bed</p>
+                                                </div>
+
+                                                <div class="bath-icon">
+                                                    <i class="fa fa-bath"></i>
+                                                    <p>2 Bath</p>
+                                                </div>
+
+                                                <div class="metre-icon">
+                                                    <i class="fa fa-arrows-alt"> </i>
+                                                    <p>112 m²</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="line5">
+                                            <div class="location">
+                                                <div class="map-icon">
+                                                    <img src="https://resido.thesky9.com/themes/resido/img/pin.svg"
+                                                        width="18" alt="Hampton"> Hampton
+                                                </div>
+                                                <div class="view">
+                                                    <a href="holidaydrive.html" class="prt-view">View</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="img">
+                                <div class="img11">
+                                    <a href="holidaydrive.html"> <img src="p-3-400xauto.jpg"></a>
+                                    <div class="icon-actions-wrapper">
+                                        <a href="" class="add-to-wishlist">
+                                            <i class="fa fa-heart"></i>
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <div class="line1">
+                                            <span>
+                                                <span class="type-rent">Rent</span>
+                                            </span>
+                                            <h4>$175,939 / Monthly</h4>
+                                        </div>
+
+                                        <div class="line2">
+                                            <a href="holidaydrive.html"> 4113 Holiday Drive
+                                            </a>
+                                        </div>
+
+                                        <div class="line3">
+                                            <div class="rating">
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <p>(3 Reviews)</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="line4">
+                                            <div class="list-features">
+                                                <div class="bed-icon">
+                                                    <i class="fa fa-bed"></i>
+                                                    <p>1 Bed</p>
+                                                </div>
+
+                                                <div class="bath-icon">
+                                                    <i class="fa fa-bath"></i>
+                                                    <p>2 Bath</p>
+                                                </div>
+
+                                                <div class="metre-icon">
+                                                    <i class="fa fa-arrows-alt"> </i>
+                                                    <p>112 m²</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="line5">
+                                            <div class="location">
+                                                <div class="map-icon">
+                                                    <img src="https://resido.thesky9.com/themes/resido/img/pin.svg"
+                                                        width="18" alt="Hampton"> Hampton
+                                                </div>
+                                                <div class="view">
+                                                    <a href="holidaydrive.html" class="prt-view">View</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="img">
+                                <div class="img12">
+                                    <a href="holidaydrive.html"><img src="p-8-400xauto.jpg"></a>
+                                    <div class="icon-actions-wrapper">
+                                        <a href="" class="add-to-wishlist">
+                                            <i class="fa fa-heart"></i>
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <div class="line1">
+                                            <span>
+                                                <span class="type-rent">Rent</span>
+                                            </span>
+                                            <h4>$175,939 / Monthly</h4>
+                                        </div>
+
+                                        <div class="line2">
+                                            <a href="holidaydrive.html"> 4113 Holiday Drive </a>
+                                        </div>
+
+                                        <div class="line3">
+                                            <div class="rating">
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <p>(3 Reviews)</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="line4">
+                                            <div class="list-features">
+                                                <div class="bed-icon">
+                                                    <i class="fa fa-bed"></i>
+                                                    <p>1 Bed</p>
+                                                </div>
+
+                                                <div class="bath-icon">
+                                                    <i class="fa fa-bath"></i>
+                                                    <p>2 Bath</p>
+                                                </div>
+
+                                                <div class="metre-icon">
+                                                    <i class="fa fa-arrows-alt"> </i>
+                                                    <p>112 m²</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="line5">
+                                            <div class="location">
+                                                <div class="map-icon">
+                                                    <img src="https://resido.thesky9.com/themes/resido/img/pin.svg"
+                                                        width="18" alt="Hampton"> Hampton
+                                                </div>
+                                                <div class="view">
+                                                    <a href="holidaydrive.html" class="prt-view">View</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="img">
+                                <div class="img13">
+                                    <a href="holidaydrive.html"> <img src="p-13-400xauto.jpg"></a>
+                                    <div class="icon-actions-wrapper">
+                                        <a href="" class="add-to-wishlist">
+                                            <i class="fa fa-heart"></i>
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <div class="line1">
+                                            <span>
+                                                <span class="type-rent">Rent</span>
+                                            </span>
+                                            <h4>$175,939 / Monthly</h4>
+                                        </div>
+
+                                        <div class="line2">
+                                            <a href="holidaydrive.html"> 4113
+                                                Holiday Drive </a>
+                                        </div>
+
+                                        <div class="line3">
+                                            <div class="rating">
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <p>(3 Reviews)</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="line4">
+                                            <div class="list-features">
+                                                <div class="bed-icon">
+                                                    <i class="fa fa-bed"></i>
+                                                    <p>1 Bed</p>
+                                                </div>
+
+                                                <div class="bath-icon">
+                                                    <i class="fa fa-bath"></i>
+                                                    <p>2 Bath</p>
+                                                </div>
+
+                                                <div class="metre-icon">
+                                                    <i class="fa fa-arrows-alt"> </i>
+                                                    <p>112 m²</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="line5">
+                                            <div class="location">
+                                                <div class="map-icon">
+                                                    <img src="https://resido.thesky9.com/themes/resido/img/pin.svg"
+                                                        width="18" alt="Hampton"> Hampton
+                                                </div>
+                                                <div class="view">
+                                                    <a href="holidaydrive.html" class="prt-view">View</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="img">
+                                <div class="img14">
+                                    <a href="holidaydrive.html"><img src="p-5-400xauto.jpg"></a>
+                                    <div class="icon-actions-wrapper">
+                                        <a href="" class="add-to-wishlist">
+                                            <i class="fa fa-heart"></i>
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <div class="line1">
+                                            <span>
+                                                <span class="type-rent">Rent</span>
+                                            </span>
+                                            <h4>$175,939 / Monthly</h4>
+                                        </div>
+
+                                        <div class="line2">
+                                            <a href="holidaydrive.html"> 4113 Holiday Drive </a>
+                                        </div>
+
+                                        <div class="line3">
+                                            <div class="rating">
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <p>(3 Reviews)</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="line4">
+                                            <div class="list-features">
+                                                <div class="bed-icon">
+                                                    <i class="fa fa-bed"></i>
+                                                    <p>1 Bed</p>
+                                                </div>
+
+                                                <div class="bath-icon">
+                                                    <i class="fa fa-bath"></i>
+                                                    <p>2 Bath</p>
+                                                </div>
+
+                                                <div class="metre-icon">
+                                                    <i class="fa fa-arrows-alt"> </i>
+                                                    <p>112 m²</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="line5">
+                                            <div class="location">
+                                                <div class="map-icon">
+                                                    <img src="https://resido.thesky9.com/themes/resido/img/pin.svg"
+                                                        width="18" alt="Hampton"> Hampton
+                                                </div>
+                                                <div class="view">
+                                                    <a href="holidaydrive.html" class="prt-view">View</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="img">
+                                <div class="img15">
+                                    <a href="holidaydrive.html"><img src="p-6-400xauto.jpg"></a>
+                                    <div class="icon-actions-wrapper">
+                                        <a href="" class="add-to-wishlist">
+                                            <i class="fa fa-heart"></i>
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <div class="line1">
+                                            <span>
+                                                <span class="type-rent">Rent</span>
+                                            </span>
+                                            <h4>$175,939 / Monthly</h4>
+                                        </div>
+
+                                        <div class="line2">
+                                            <a href="holidaydrive.html">
+                                                4113 Holiday Drive </a>
+                                        </div>
+
+                                        <div class="line3">
+                                            <div class="rating">
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <p>(3 Reviews)</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="line4">
+                                            <div class="list-features">
+                                                <div class="bed-icon">
+                                                    <i class="fa fa-bed"></i>
+                                                    <p>1 Bed</p>
+                                                </div>
+
+                                                <div class="bath-icon">
+                                                    <i class="fa fa-bath"></i>
+                                                    <p>2 Bath</p>
+                                                </div>
+
+                                                <div class="metre-icon">
+                                                    <i class="fa fa-arrows-alt"> </i>
+                                                    <p>112 m²</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="line5">
+                                            <div class="location">
+                                                <div class="map-icon">
+                                                    <img src="https://resido.thesky9.com/themes/resido/img/pin.svg"
+                                                        width="18" alt="Hampton"> Hampton
+                                                </div>
+                                                <div class="view">
+                                                    <a href="holidaydrive.html" class="prt-view">View</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="img">
+                                <div class="img16">
+                                    <a href="holidaydrive.html"><img src="p-16-400xauto.jpg"></a>
+                                    <div class="icon-actions-wrapper">
+                                        <a href="" class="add-to-wishlist">
+                                            <i class="fa fa-heart"></i>
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <div class="line1">
+                                            <span>
+                                                <span class="type-rent">Rent</span>
+                                            </span>
+                                            <h4>$175,939 / Monthly</h4>
+                                        </div>
+
+                                        <div class="line2">
+                                            <a href="holidaydrive.html"> 4113 Holiday Drive </a>
+                                        </div>
+
+                                        <div class="line3">
+                                            <div class="rating">
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <p>(3 Reviews)</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="line4">
+                                            <div class="list-features">
+                                                <div class="bed-icon">
+                                                    <i class="fa fa-bed"></i>
+                                                    <p>1 Bed</p>
+                                                </div>
+
+                                                <div class="bath-icon">
+                                                    <i class="fa fa-bath"></i>
+                                                    <p>2 Bath</p>
+                                                </div>
+
+                                                <div class="metre-icon">
+                                                    <i class="fa fa-arrows-alt"> </i>
+                                                    <p>112 m²</p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="line5">
+                                            <div class="location">
+                                                <div class="map-icon">
+                                                    <img src="https://resido.thesky9.com/themes/resido/img/pin.svg"
+                                                        width="18" alt="Hampton"> Hampton
+                                                </div>
+                                                <div class="view">
+                                                    <a href="holidaydrive.html" class="prt-view">View</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="img">
+                                <div class="img17">
+                                    <a href="holidaydrive.html"> <img src="p-17-400xauto.jpg"></a>
+                                    <div class="icon-actions-wrapper">
+                                        <a href="" class="add-to-wishlist">
+                                            <i class="fa fa-heart"></i>
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <div class="line1">
+                                            <span>
+                                                <span class="type-rent">Rent</span>
+                                            </span>
+                                            <h4>$175,939 / Monthly</h4>
+                                        </div>
+
+                                        <div class="line2">
+                                            <a href="holidaydrive.html">
+                                                4113 Holiday Drive
+                                            </a>
+                                        </div>
+
+                                        <div class="line3">
+                                            <div class="rating">
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <p>(3 Reviews)</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="line4">
+                                            <div class="list-features">
+                                                <div class="bed-icon">
+                                                    <i class="fa fa-bed"></i>
+                                                    <p>1 Bed</p>
+                                                </div>
+
+                                                <div class="bath-icon">
+                                                    <i class="fa fa-bath"></i>
+                                                    <p>2 Bath</p>
+                                                </div>
+
+                                                <div class="metre-icon">
+                                                    <i class="fa fa-arrows-alt"> </i>
+                                                    <p>112 m²</p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="line5">
+                                            <div class="location">
+                                                <div class="map-icon">
+                                                    <img src="https://resido.thesky9.com/themes/resido/img/pin.svg"
+                                                        width="18" alt="Hampton"> Hampton
+                                                </div>
+                                                <div class="view">
+                                                    <a href="holidaydrive.html" class="prt-view">View</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="img">
+                                <div class="img18">
+                                    <a href="holidaydrive.html"><img src="p-18-400xauto.jpg"></a>
+                                    <div class="icon-actions-wrapper">
+                                        <a href="" class="add-to-wishlist">
+                                            <i class="fa fa-heart"></i>
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <div class="line1">
+                                            <span>
+                                                <span class="type-rent">Rent</span>
+                                            </span>
+                                            <h4>$175,939 / Monthly</h4>
+                                        </div>
+
+                                        <div class="line2">
+                                            <a href="holidaydrive.html">4113 Holiday Drive </a>
+                                        </div>
+
+                                        <div class="line3">
+                                            <div class="rating">
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <p>(3 Reviews)</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="line4">
+                                            <div class="list-features">
+                                                <div class="bed-icon">
+                                                    <i class="fa fa-bed"></i>
+                                                    <p>1 Bed</p>
+                                                </div>
+
+                                                <div class="bath-icon">
+                                                    <i class="fa fa-bath"></i>
+                                                    <p>2 Bath</p>
+                                                </div>
+
+                                                <div class="metre-icon">
+                                                    <i class="fa fa-arrows-alt"> </i>
+                                                    <p>112 m²</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="line5">
+                                            <div class="location">
+                                                <div class="map-icon">
+                                                    <img src="https://resido.thesky9.com/themes/resido/img/pin.svg"
+                                                        width="18" alt="Hampton"> Hampton
+                                                </div>
+                                                <div class="view">
+                                                    <a href="holidaydrive.html" class="prt-view">View</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="img">
+                                <div class="img19">
+                                    <a href="holidaydrive.html"> <img src="p-19-400xauto.jpg"></a>
+                                    <div class="icon-actions-wrapper">
+                                        <a href="" class="add-to-wishlist">
+                                            <i class="fa fa-heart"></i>
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <div class="line1">
+                                            <span>
+                                                <span class="type-rent">Rent</span>
+                                            </span>
+                                            <h4>$175,939 / Monthly</h4>
+                                        </div>
+
+                                        <div class="line2">
+                                            <a href="holidaydrive.html">4113 Holiday Drive </a>
+                                        </div>
+
+                                        <div class="line3">
+                                            <div class="rating">
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <p>(3 Reviews)</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="line4">
+                                            <div class="list-features">
+                                                <div class="bed-icon">
+                                                    <i class="fa fa-bed"></i>
+                                                    <p>1 Bed</p>
+                                                </div>
+
+                                                <div class="bath-icon">
+                                                    <i class="fa fa-bath"></i>
+                                                    <p>2 Bath</p>
+                                                </div>
+
+                                                <div class="metre-icon">
+                                                    <i class="fa fa-arrows-alt"> </i>
+                                                    <p>112 m²</p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="line5">
+                                            <div class="location">
+                                                <div class="map-icon">
+                                                    <img src="https://resido.thesky9.com/themes/resido/img/pin.svg"
+                                                        width="18" alt="Hampton"> Hampton
+                                                </div>
+                                                <div class="view">
+                                                    <a href="holidaydrive.html" class="prt-view">View</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up"></i></button>
+
+        <script>
+            // Get the button
+            let mybutton = document.getElementById("myBtn");
+
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function () { scrollFunction() };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+
+
+
+</body>
